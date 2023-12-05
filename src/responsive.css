@@ -48,12 +48,11 @@
     .swiper-navBtn {
         visibility: hidden;
     }
-    .nav__responsive{
-        display: none;
+    .logo__name{
+        display: block;
     }
-    .navigation {
-        justify-content: left;
-        gap: 1rem;
+    .links {
+        display: none;
     }
     .links {
         font-size: 1.5rem;
@@ -61,15 +60,17 @@
 
     .text__content {
         padding: 1rem;
-        width: 30.5rem;
+        max-width: 35rem;
     }
-
+    
     .text__apresentation {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
     }
 
     .hero__img {
         height: 20rem;
-        padding: 1rem;
+        width: 40rem;
     }
 }
