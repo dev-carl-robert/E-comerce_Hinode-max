@@ -37,19 +37,9 @@ header {
     align-items: center;
 }
 
-.logo__content {
-    margin-left: 4rem;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    height: 7rem;
-    padding: .5rem;
-    object-fit: cover;
-}
 
 .logo__name {
+    margin-left: 8rem;
     font-family: 'Anonymous pro';
     font-size: 1.8rem;
     color: #7A4850;
