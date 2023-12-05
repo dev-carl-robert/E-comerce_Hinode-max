@@ -1,4 +1,8 @@
 @media screen and (max-width: 900px) {
+    body{
+        width: 100vw;
+        box-sizing: border-box;
+    }
     .logo__name {
         display: none;
     }
@@ -41,23 +45,14 @@
     .content__responsive {
         display: none;
     }
-    ::-webkit-scrollbar {
-    display: none;
-
-}
-
-::-webkit-scrollbar-track {
-    display: none;
-}
-
-::-webkit-scrollbar-thumb {
-     display: none;
-}
-
 
 }
 
 @media screen and (max-width: 500px) {
+    body{
+        width: 100vw;
+        box-sizing: border-box;
+    }
     .swiper-navBtn {
         visibility: hidden;
     }
