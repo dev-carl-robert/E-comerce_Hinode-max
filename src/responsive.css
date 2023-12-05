@@ -33,14 +33,7 @@
 
     .contatos {
         flex-direction: column;
-        gap: .8rem;
-        justify-content: space-around;
     }
-
-    .content__contatos {
-        padding: .3rem;
-    }
-
     .content__responsive {
         display: none;
     }
