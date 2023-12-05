@@ -7,7 +7,6 @@
         font-size: 1.7rem;
     }
 
-
     .hero {
         display: flex;
         flex-direction: column;
@@ -23,27 +22,54 @@
         text-align: center;
     }
 
-    .catalogo{
+    .catalogo {
         width: 70rem;
         flex-wrap: nowrap;
         gap: 15px;
     }
-    .contatos{
+
+    .contatos {
         flex-direction: column;
         gap: .8rem;
         justify-content: space-around;
     }
-    .content__contatos{
+
+    .content__contatos {
         padding: .3rem;
     }
-    .content__responsive{
+
+    .content__responsive {
         display: none;
     }
 
 }
 
-@media screen and (max-width: 400px) {
-    .swiper-navBtn{
+@media screen and (max-width: 500px) {
+    .swiper-navBtn {
         visibility: hidden;
+    }
+    .nav__responsive{
+        display: none;
+    }
+    .navigation {
+        justify-content: left;
+        gap: 1rem;
+    }
+    .links {
+        font-size: 1.5rem;
+    }
+
+    .text__content {
+        padding: 1rem;
+        width: 30.5rem;
+    }
+
+    .text__apresentation {
+        font-size: 1.8rem;
+    }
+
+    .hero__img {
+        height: 20rem;
+        padding: 1rem;
     }
 }
