@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+    .logo__name {
+        display: none;
+    }
+
+    .links {
+        font-size: 1.7rem;
+    }
+
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__img {
+        height: 25rem;
+        margin-left: -12rem;
+    }
+
+    .text__apresentation {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .catalogo{
+        width: 70rem;
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+    .contatos{
+        flex-direction: column;
+        gap: .8rem;
+        justify-content: space-around;
+    }
+    .content__contatos{
+        padding: .3rem;
+    }
+    .content__responsive{
+        display: none;
+    }
+
+}
