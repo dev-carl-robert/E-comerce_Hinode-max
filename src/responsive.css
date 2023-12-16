@@ -2,6 +2,7 @@
     body{
         max-width: 100%;
     }
+
     .logo__name {
         display: none;
     }
@@ -37,39 +38,19 @@
     .content__responsive {
         display: none;
     }
-
-}
-
-@media screen and (max-width: 500px) {
-    body{
-        max-width: 100%;
-    }
     .swiper-navBtn {
         visibility: hidden;
     }
-    .logo__name{
-        display: block;
-    }
-    .links {
-        display: none;
-    }
-    .links {
-        font-size: 1.5rem;
-    }
-
-    .text__content {
-        padding: 1rem;
-        max-width: 35rem;
-    }
     
-    .text__apresentation {
-        font-size: 1.5rem;
-        width: 100%;
-        text-align: center;
-    }
+::-webkit-scrollbar {
+    visibility: hidden;
+}
 
-    .hero__img {
-        height: 20rem;
-        width: 40rem;
-    }
+::-webkit-scrollbar-track {
+    visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
 }
