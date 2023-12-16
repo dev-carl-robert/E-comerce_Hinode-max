@@ -17,8 +17,9 @@
     }
 
     .hero__img {
-        height: 25rem;
-        margin-left: -12rem;
+/*         height: 25rem;
+        margin-left: -12rem; */
+        display: none;
     }
 
     .text__apresentation {
@@ -39,7 +40,7 @@
         display: none;
     }
     .swiper-navBtn {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -72,8 +73,7 @@
     }
 
     .hero__img {
-        height: 20rem;
-        width: 40rem;
+        display: none;
     }
 }
 
