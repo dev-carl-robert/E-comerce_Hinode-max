@@ -43,14 +43,55 @@
     }
     
 ::-webkit-scrollbar {
-    visibility: hidden;
+   visibility: hidden;
 }
 
 ::-webkit-scrollbar-track {
-    visibility: hidden;
+   visibility: hidden; 
 }
 
 ::-webkit-scrollbar-thumb {
     visibility: hidden;
 }
 }
+
+@media screen and (max-width: 500px) {
+    body{
+        max-width: 100%;
+    }
+    .swiper-navBtn {
+        visibility: hidden;
+    }
+    .logo__name{
+        display: block;
+    }
+    .links {
+        display: none;
+    }
+    .links {
+        font-size: 1.5rem;
+    }
+
+    .text__content {
+        padding: 1rem;
+        max-width: 35rem;
+    }
+    
+    .text__apresentation {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero__img {
+        height: 20rem;
+        width: 40rem;
+    }
+
+}
+
+/* @media screen and (max-width: 300px) {
+    body{
+        width: calc(100vw - 20vw);
+    }
+} */
