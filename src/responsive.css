@@ -91,6 +91,7 @@
         text-align: center;
         word-break: normal;
         margin-top: 9rem;
+        margin-left: -1rem;
     }
 
     .hero__img {
