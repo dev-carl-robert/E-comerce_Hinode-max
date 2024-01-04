@@ -79,6 +79,7 @@ span {
     position: absolute;
 }
 
+
 /* main */
 .hero {
     margin-top: 5rem;
@@ -89,7 +90,7 @@ span {
 }
 
 .text__content {
-    width: 40.5rem;
+    width: 42.5rem;
 }
 
 .text__apresentation {
@@ -97,6 +98,7 @@ span {
     font-size: 3rem;
     word-break: normal;
     font-family: 'Barlow';
+    color: #7A4850;
 }
 
 .hero__img {
@@ -132,10 +134,11 @@ span {
     object-fit: cover;
 }
 
-.swiper-navBtn{
+.swiper-navBtn {
     color: #7A4850;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     background-color: #7A4850;
 }
 
@@ -182,7 +185,8 @@ span {
     margin-top: 2rem;
     border-radius: 10px;
 }
-.button__product:hover{
+
+.button__product:hover {
     opacity: .98;
 }
 

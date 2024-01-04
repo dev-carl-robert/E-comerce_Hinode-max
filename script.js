@@ -6,7 +6,7 @@ var swiper = new Swiper(".catalogo", {
   centeredSlides: true,
   fade: true,
   autoplay: {
-    delay: 2200,
+    delay: 2500,
     disableOnInteraction: false
   },
   pagination: {
@@ -21,7 +21,7 @@ var swiper = new Swiper(".catalogo", {
   keyboard: true,
   on: {
     autoplayTimeLeft(s, time, progress) {
-      progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+      progressContent.textContent = `${Math.ceil(time / 1200)}s`;
     },
 
   },
