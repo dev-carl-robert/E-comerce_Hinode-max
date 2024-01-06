@@ -100,7 +100,7 @@
         position: absolute;
         opacity: .1;
         overflow: hidden;
-        width: 40rem;
+        width: 35rem;
         object-fit: contain;
     }
     .atendimento {
