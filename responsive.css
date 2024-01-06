@@ -34,6 +34,7 @@
 
     .contatos {
         flex-direction: column;
+        text-align: center;
     }
     .content__responsive {
         display: none;
@@ -91,12 +92,18 @@
         text-align: center;
         word-break: normal;
         margin-top: 9rem;
-        margin-left: -1rem;
+        margin-left: -.4rem;
     }
 
     .hero__img {
         top: 9rem;
         position: absolute;
         opacity: .1;
+        overflow: hidden;
+        width: 40rem;
+        object-fit: contain;
+    }
+    .atendimento {
+         display: none;
     }
 }
